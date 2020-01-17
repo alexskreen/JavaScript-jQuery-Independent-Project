@@ -34,15 +34,15 @@ _503-503-5035_
 
 ## Technologies Used
 
-_terminal_
-_Visual Studio Code_
-_Git_
-_HTML_
-_CSS_
-_Bootstrap_
-_JavaScript_
-_jQuery_
-_Chrome_
+* _terminal_
+* _Visual Studio Code_
+* _Git_
+* _HTML_
+* _CSS_
+* _Bootstrap_
+* _JavaScript_
+* _jQuery_
+* _Chrome_
 
 ### License
 
