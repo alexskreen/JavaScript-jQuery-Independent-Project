@@ -1,6 +1,6 @@
 # _Programming Language Suggester_
 
-#### _This program asks the user a list of questions then generates a first coding langauge to best fit them_, 1/17/2020_
+#### _This program asks the user a list of questions then generates a first coding langauge to best fit them, 1/17/2020_
 
 #### By _**Alex Skreen**_
 
