@@ -13,11 +13,11 @@ $(document).ready(function(){
         if (experience === "1" && designorBuild === "1" && frontEndBackEnd === "1" && longForm === "1" && question5 === "1" && question6 === "1") {
             $("#two, #three, #four, #five").hide();
             $("#one").show();
-          } else if (experience === "1" && designorBuild === "1" && frontEndBackEnd === "3" && longForm === "3" && question5 === "3" && question6 === "3") {
+          } else if (experience === "1" && designorBuild === "2" && frontEndBackEnd === "2" && longForm === "2" && question5 === "1" && question6 === "1") {
             $("#one, #three").hide();
             $("#four, #five").hide();
             $("#two").show();
-          } else if (experience === "1" && designorBuild === "1" && frontEndBackEnd === "3" && longForm === "3" && question5 === "3" && question6 === "3") {
+          } else if (experience === "2" && designorBuild === "1" && frontEndBackEnd === "3" && longForm === "3" && question5 === "3" && question6 === "3") {
             $("#one, #two").hide();
             $("#four, #five").hide();
             $("#three").show();
