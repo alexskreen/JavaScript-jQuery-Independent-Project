@@ -4,7 +4,7 @@
 
 #### By _**Alex Skreen**_
 
-## Description
+## _You can check out the program here: https://github.com/alexskreen/JavaScript-jQuery-Independent-Project.git_
 
 _{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
 
