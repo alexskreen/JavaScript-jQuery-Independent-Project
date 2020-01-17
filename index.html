@@ -9,70 +9,74 @@
   </head>
   <body>
     <div class="container">
-      <div class="row-md-12">
-        <h1>Which coding language should you start with?</h1>
-        <br>
-        <p>Picking your first coding language is incredibly important, and we understand just how stressful it can be. We put together this questionnaire to help guide you on your new coding journey! so we will use your answers to recommend where you should get your start.</p>
+      <div class="container">
+        <div class="col-md-12">
+          <h1>Which coding language should you start with?</h1>
+          <br>
+          <p>Picking your first coding language is incredibly important, and we understand just how stressful it can be. We put together this questionnaire to help guide you on your new coding journey! so we will use your answers to recommend where you should get your start.</p>
+        </div>
       </div>
       <form id="languageForm">
-        <div class="row">
-          <div class="masterQuestion col-md-4">
-            <h3>How would you describe your coding experience so far?</h3>
-            <select class="form-control" id="experience">
-              <option value="1">I am a total noob</option>
-              <option value="2">I have dabbled a bit online</option>
-              <option value="3">I have taken some classes in the past</option>
-              <option value="4">I have a CS degree from an accreddited university</option>
-            </select>
+        <div class="well">
+          <div class="row">
+            <div class="masterQuestion col-md-4">
+              <h3>How would you describe your coding experience so far?</h3>
+              <select class="form-control" id="experience">
+                <option value="1">I am a total noob</option>
+                <option value="2">I have dabbled a bit online</option>
+                <option value="3">I have taken some classes in the past</option>
+                <option value="4">I have a CS degree from an accreddited university</option>
+              </select>
+            </div>
+            <div class="col-md-4">
+              <h3>Do prefer to focus on the design or build something functional?</h3>
+              <select class="form-control" id="designorBuild">
+                <option value="1">Design</option>
+                <option value="2">
+                  Build</option>
+              </select>
+            </div>
+            <div class="col-md-4">
+              <h3>What is your favorite area of a project to focus on?</h3>
+              <select class="form-control" id="frontEndBackEnd">
+                <option value="1">Front End</option>
+                <option value="2">
+                  Back end</option>
+                <option value="3">Both?</option>
+              </select>
+            </div>
           </div>
-          <div class="col-md-4">
-            <h3>Do prefer to focus on the design or build something functional?</h3>
-            <select class="form-control" id="designorBuild">
-              <option value="1">Design</option>
-              <option value="2">
-                Build</option>
-            </select>
+          <div class="row">
+            <div class="col-md-4">
+              <h3>Do you like to write things out use shortcuts?</h3>
+              <select class="form-control" id="longForm">
+                <option value="1">Long Form is much more elegant!</option>
+                <option value="2">
+                  The future is now! Shortcuts all the way!</option>
+              </select>
+            </div>
+            <div class="col-md-4">
+              <h3>Example question 5</h3>
+              <select class="form-control" id="design">
+                <option value="1">Design</option>
+                <option value="2">
+                  Function</option>
+              </select>
+            </div>
+            <div class="col-md-4">
+              <h3>Example question 6</h3>
+              <select class="form-control" id="design">
+                <option value="1">Design</option>
+                <option value="2">
+                  Function</option>
+              </select>
+            </div>
           </div>
-          <div class="col-md-4">
-            <h3>What is your favorite area of a project to focus on?</h3>
-            <select class="form-control" id="frontEndBackEnd">
-              <option value="1">Front End</option>
-              <option value="2">
-                Back end</option>
-              <option value="3">Both?</option>
-            </select>
-          </div>
+          <button class="btn btn-primary" type="submit">Match!</button>
         </div>
-        <div class="row">
-          <div class="col-md-4">
-            <h3>Do you like to write things out use shortcuts?</h3>
-            <select class="form-control" id="longForm">
-              <option value="1">Long Form is much more elegant!</option>
-              <option value="2">
-                The future is now! Shortcuts all the way!</option>
-            </select>
-          </div>
-          <div class="col-md-4">
-            <h3>Example question 5</h3>
-            <select class="form-control" id="design">
-              <option value="1">Design</option>
-              <option value="2">
-                Function</option>
-            </select>
-          </div>
-          <div class="col-md-4">
-            <h3>Example question 6</h3>
-            <select class="form-control" id="design">
-              <option value="1">Design</option>
-              <option value="2">
-                Function</option>
-            </select>
-          </div>
-        </div>
-        <button class="btn btn-primary" type="submit">Match!</button>
       </form>
       <br>
-        <div class="container" id="userIfno">
+        <div class="well" id="userIfno">
           <p>If you would like someone from Epicodus to reach out to discuss next steps please fill out the fields below, and we will have one of our teachers reach out!</p>
           <br>
           <form id="appointmentForm">
