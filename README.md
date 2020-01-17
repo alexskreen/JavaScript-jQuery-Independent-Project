@@ -1,8 +1,8 @@
-# _{Application Name}_
+# _Programming Language Suggester_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _This program asks the user a list of questions then generates a first coding langauge to best fit them_, 1/17/2020_
 
-#### By _**{List of contributors}**_
+#### By _**Alex Skreen**_
 
 ## Description
 
@@ -10,28 +10,42 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* _Open web browser_
+* _Navigate to https://github.com/alexskreen/JavaScript-jQuery-Independent-Project_
+* _Click the green "clone or download" button_
+* _Open terminal_
+* _Navigate to desktop by typing "cd .." into terminal_
+* _Clone directory to desktop by typing "git clone https://github.com/alexskreen/JavaScript-jQuery-Independent-Project.git"_
+* _Type "cd javascript-jquery-independent-project" into terminal_
+* _Type "code ." into terminal. This will open VS code and show you the files located in the cloned directory_
+* _Type "open index.html" into terminal. This will open the website_
+* _Fill out user form boxes, questions, and click the submit button_
+* _Get your result!_
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_There are no known bugs at this time. If you find one please contact me using the information below._
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_Alex Skreen_
+_skreenalex@gmail.com_
+_503-503-5035_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_terminal_
+_Visual Studio Code_
+_Git_
+_HTML_
+_CSS_
+_Bootstrap_
+_JavaScript_
+_jQuery_
+_Chrome_
 
 ### License
 
 *{Determine the license under which this application can be used.  See below for more details on licensing.}*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2019 **_Alex Skreen_**
