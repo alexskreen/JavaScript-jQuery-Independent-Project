@@ -11,43 +11,45 @@
     <div class="container">
       <div class="row-md-12">
         <h1>Which coding language should you start with?</h1>
-        <p>First, lets gather some of your information so we can better recommend a language that will best fit you.</p>
         <br>
-        <p>Picking your first coding language is incredibly important, so we will use your answers to recommend where you should get your start.</p>
+        <p>Picking your first coding language is incredibly important, and we understand just how stressful it can be. We put together this questionnaire to help guide you on your new coding journey! so we will use your answers to recommend where you should get your start.</p>
       </div>
       <form id="languageForm">
         <div class="row">
-          <div class="col-md-4">
-            <h3>Do prefer to be a jack of all trades or a master of one?</h3>
-            <select class="form-control" id="master">
-              <option value="1">Jack of all trades</option>
-              <option value="2">Master of one</option>
+          <div class="masterQuestion col-md-4">
+            <h3>How would you describe your coding experience so far?</h3>
+            <select class="form-control" id="experience">
+              <option value="1">I am a total noob</option>
+              <option value="2">I have dabbled a bit online</option>
+              <option value="3">I have taken some classes in the past</option>
+              <option value="4">I have a CS degree from an accreddited university</option>
             </select>
           </div>
           <div class="col-md-4">
-            <h3>Do prefer design or function?</h3>
-            <select class="form-control" id="design">
+            <h3>Do prefer to focus on the design or build something functional?</h3>
+            <select class="form-control" id="designorBuild">
               <option value="1">Design</option>
               <option value="2">
-                Function</option>
+                Build</option>
             </select>
           </div>
           <div class="col-md-4">
-            <h3>Example question 3</h3>
-            <select class="form-control" id="design">
-              <option value="1">Design</option>
+            <h3>What is your favorite area of a project to focus on?</h3>
+            <select class="form-control" id="frontEndBackEnd">
+              <option value="1">Front End</option>
               <option value="2">
-                Function</option>
+                Back end</option>
+              <option value="3">Both?</option>
             </select>
           </div>
         </div>
         <div class="row">
           <div class="col-md-4">
-            <h3>Example question 4</h3>
-            <select class="form-control" id="design">
-              <option value="1">Design</option>
+            <h3>Do you like to write things out use shortcuts?</h3>
+            <select class="form-control" id="longForm">
+              <option value="1">Long Form is much more elegant!</option>
               <option value="2">
-                Function</option>
+                The future is now! Shortcuts all the way!</option>
             </select>
           </div>
           <div class="col-md-4">
@@ -67,8 +69,64 @@
             </select>
           </div>
         </div>
+        <button class="btn btn-primary" type="submit">Match!</button>
       </form>
-    </div>
+      <br>
+        <div class="container" id="userIfno">
+          <p>If you would like someone from Epicodus to reach out to discuss next steps please fill out the fields below, and we will have one of our teachers reach out!</p>
+          <br>
+          <form id="appointmentForm">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                  <label for="firstName">First Name</label>
+                <input type="text" id="firstName" class="form-control" placeholder="first name">
+              </div>
+              <div class="form-row">
+              <div class="form-group col-md-6">
+                  <label for="lastName">Last Name</label>
+                  <input type="text" id="lastName" class="form-control" placeholder="Last name">
+              </div>
+              </div>
+            </div>
+            <div class="row-md-12">
+              <div class="form-group">
+                <label for="description">If you have any questions you'd like to address on our call please let us know here!</label>
+                <textarea id="description" class="form-control"  rows="3" placeholder="If you have any questions you'd like to address on our call please let us know here!"></textarea>
+              </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Match!</button>
+          </form>
+        </div>
 
+      <div class="container" id="one">
+        <h2>You and Beyonce match!</h2>
+        <p>Beyoncé Giselle Knowles-Carter (/biːˈjɒnseɪ/ bee-YON-say; born September 4, 1981) is an American singer, songwriter, record producer, and actress. Born and raised in Houston, Texas, Beyoncé performed in various singing and dancing competitions as a child. She rose to fame in the late 1990s as the lead singer of Destiny's Child, one of the best-selling girl groups of all time.</p>
+        <p><img src="https://i.ytimg.com/vi/civgUOommC8/maxresdefault.jpg" alt="Picture of Beyonce"></p>
+      </div>
+  
+      <div class="container" id="two">
+        <h2>You and Drake match!</h2>
+        <p>Aubrey Drake Graham (born October 24, 1986) is a Canadian rapper, singer, songwriter, producer, actor, and businessman. Drake initially gained recognition as an actor on the teen drama television series Degrassi: The Next Generation in the 2000s; intent on pursuing a career in music, he left the series in 2007 after releasing his debut mixtape Room for Improvement. He released two further independent projects, Comeback Season and So Far Gone, before signing to Young Money Entertainment in June 2009.</p>
+        <p><img src="https://images.complex.com/complex/images/c_limit,dpr_auto,q_90,w_720/fl_lossy,pg_1/yldrt0uplw1lrmgvkxbt/drake-raptors" alt="Picture of Drake"></p>
+      </div>
+  
+      <div class="container" id="three">
+        <h2>You and Kanye West match!</h2>
+        <p>Kanye Omari West (/ˈkɑːnjeɪ/; born June 8, 1977) is an American rapper, singer, songwriter, record producer, entrepreneur, and fashion designer. West is among the most critically acclaimed musicians of the 21st century. His music has spanned a broad range of styles, incorporating an eclectic range of influences including hip hop, soul, baroque pop, electro, indie rock, synth-pop, industrial, and gospel.</p>
+        <p><img src="https://api.time.com/wp-content/uploads/2016/04/gettyimages-509641192.jpg?w=600&quality=85" alt="Picture of Kanye"></p>
+      </div>
+
+      <div class="container" id="four">
+          <h2>You and Rihanna match!</h2>
+          <p>Robyn Rihanna Fenty (/riˈænə/ ree-AN-ə;[2][n 1] born February 20, 1988) is a Barbadian singer, songwriter, fashion designer, actress and businesswoman, who has been recognized for embracing various musical styles and reinventing her image throughout her career.</p>
+          <p><img src="https://specials-images.forbesimg.com/imageserve/5ceec355142c500008f42068/1920x0.jpg?cropX1=32&cropX2=1982&cropY1=257&cropY2=2207" alt="Picture of Rihanna"></p>
+        </div>
+
+        <div class="container" id="five">
+            <h2>You and Selena Gomez match!</h2>
+            <p>Selena Marie Gomez (born July 22, 1992) is an American singer, songwriter, actress, and television producer.[1] After appearing on the children's television series Barney & Friends (2002–2004), she received wider recognition for her portrayal of Alex Russo on the Emmy Award-winning Disney Channel television series Wizards of Waverly Place, which aired from 2007 until 2012. Gomez also starred in the films Another Cinderella Story (2008), Princess Protection Program (2009), Wizards of Waverly Place: The Movie (2009), Ramona and Beezus (2010), and Monte Carlo (2011). Thereafter, she focused on more mature roles in Spring Breakers (2012), Getaway (2013), The Fundamentals of Caring (2016), and The Dead Don't Die (2019). She voices the character of Mavis in the Hotel Transylvania film franchise, and serves as an executive producer of the Netflix television drama series 13 Reasons Why (2017–present) and the Netflix documentary series Living Undocumented (2019).</p>
+            <p><img src="https://thenypost.files.wordpress.com/2020/01/selena-gomez-bieber.jpg?quality=80&strip=all&w=1200" alt="Picture of Selena Gomez"></p>
+          </div>
+    </div>
   </body>
 </html>
