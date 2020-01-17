@@ -10,9 +10,8 @@ $(document).ready(function(){
 
 
 
-        if (experience === "1" && designorBuild === "1" && frontEndBackEnd === "1" && longForm === "2" && question5 === "3" && question6 === "3") {
-            $("#two, #three").hide();
-            $("#four, #five").hide();
+        if (experience === "1" && designorBuild === "1" && frontEndBackEnd === "1" && longForm === "1" && question5 === "1" && question6 === "1") {
+            $("#two, #three, #four, #five").hide();
             $("#one").show();
           } else if (experience === "1" && designorBuild === "1" && frontEndBackEnd === "3" && longForm === "3" && question5 === "3" && question6 === "3") {
             $("#one, #three").hide();
