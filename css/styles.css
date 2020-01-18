@@ -1,5 +1,6 @@
 #one, #two, #three, #four, #five, #six {
   display: none;
+  color: orange;
 }
 
 .masterQuestion {
@@ -30,6 +31,7 @@ p {
   font-size: medium;
   font-weight: bold;
   font-family: sans-serif;
+  color: white;
 }
 
 img {
