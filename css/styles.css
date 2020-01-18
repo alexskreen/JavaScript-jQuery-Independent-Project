@@ -9,3 +9,36 @@
 /* h3 {
   font-size: medium;
 } */
+
+body {
+  background-color: #877348;
+}
+
+.well {
+  background-color: #808080;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+}
+p {
+  font-size: medium;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+img {
+  max-width:1000px;
+  max-height:200px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
